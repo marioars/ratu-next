@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./Footer.module.css";
 import logoWhite from "../../public/assets/logo-ratu-white.png";
-import facebook from "https://i.imgur.com/Rz7UGAY.png";
-import twitter from "https://i.imgur.com/UiXnC1i.png";
-import instagram from "https://i.imgur.com/w2WKikF.png";
-import youtube from "https://i.imgur.com/yznl99H.png";
+// import facebook from "https://i.imgur.com/Rz7UGAY.png";
+// import twitter from "https://i.imgur.com/UiXnC1i.png";
+// import instagram from "https://i.imgur.com/w2WKikF.png";
+// import youtube from "https://i.imgur.com/yznl99H.png";
 
 const Footer = () => {
   return (
