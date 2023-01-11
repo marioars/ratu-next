@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./Footer.module.css";
 import logoWhite from "../../public/assets/logo-ratu-white.png";
-import facebook from "../../public/assets/facebook.png";
-import twitter from "../../public/assets/twitter.png";
-import instagram from "../../public/assets/instagram.png";
-import youtube from "../../public/assets/youtube.png";
+import facebook from "https://i.imgur.com/Rz7UGAY.png";
+import twitter from "https://i.imgur.com/UiXnC1i.png";
+import instagram from "https://i.imgur.com/w2WKikF.png";
+import youtube from "https://i.imgur.com/yznl99H.png";
 
 const Footer = () => {
   return (
@@ -25,16 +25,16 @@ const Footer = () => {
         </div>
         <div className={styles.footerDescHeader}>
           <div className={styles.medsos}>
-            <Image src={facebook} height={19} width={10} alt="facebook" />
+            {/* <Image src={facebook} height={19} width={10} alt="facebook" /> */}
           </div>
           <div className={styles.medsos}>
-            <Image src={youtube} height={15} width={22} alt="youtube" />
+            {/* <Image src={youtube} height={15} width={22} alt="youtube" /> */}
           </div>
           <div className={styles.medsos}>
-            <Image src={twitter} height={16} width={20} alt="twitter" />
+            {/* <Image src={twitter} height={16} width={20} alt="twitter" /> */}
           </div>
           <div className={styles.medsos}>
-            <Image src={instagram} height={18} width={19} alt="instagram" />
+            {/* <Image src={instagram} height={18} width={19} alt="instagram" /> */}
           </div>
         </div>
         <div className={styles.footerDescBot}>
